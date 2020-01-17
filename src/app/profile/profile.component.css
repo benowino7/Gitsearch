@@ -1,0 +1,22 @@
+.img{
+    border-radius:50%;
+    height:400px;
+}
+
+
+h1{
+    font-size: 80px;
+    font-weight:bold;
+    text-align:center;
+    padding:70px;
+    text-shadow: 4px 4px white; 
+}
+
+.label{
+    font-weight: bolder;
+    padding:18px;
+    font-size: 16px;
+    color:black;
+    font-family:arial;
+}
+
