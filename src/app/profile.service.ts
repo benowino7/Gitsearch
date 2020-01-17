@@ -10,7 +10,6 @@ export class ProfileService {
    private client_secret = "2c9426754e2a96d7987835c686cf88beca8be7f9";
 
   constructor(private http:HttpClient) { 
-    console.log("Service is now ready!");
     this.username = "benowino7";
   }
   getProfileInfo(){
