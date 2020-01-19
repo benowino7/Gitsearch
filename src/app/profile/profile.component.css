@@ -18,8 +18,8 @@ h2{
     width: 36vw;
     padding-top:2%;
 }
-.butn{
-    display: inline-block;
+.buton{
+    display: flex;
 }
 
 #repos{
