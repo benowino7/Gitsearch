@@ -14,9 +14,9 @@ h2{
 .prof{
     position: relative;
     float: left;
-    background-color: rgb(107, 128, 128);
     width: 36vw;
     padding-top:2%;
+    height: 100vh;
 }
 .buton{
     display: flex;
@@ -50,6 +50,31 @@ h1{
     font-family: 'Lobster', cursive;
     color:blue;
     
+}
+#head{
+    background-color: cadetblue;
+    background-size: cover;
+    text-align: center;
+}
+input{
+    width: 50%;
+    margin-left: 25%;
+
+}
+#welcome{
+    height: 300px;
+    width: 300px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    border: dotted cadetblue 8px;
+    padding: 2%;
+    animation: ben 3s 3s alternate ease-in-out infinite ;
+    transform-origin: right top;
+    box-shadow: 7px 7px 10px grey;
+}
+@keyframes ben {from{transform: rotate(40deg);} to{transform: rotate(-35deg);}}
+.results{
+    color: beige;
 }
 
 /*;
