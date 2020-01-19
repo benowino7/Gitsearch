@@ -2,17 +2,17 @@
 <link href="https://fonts.googleapis.com/css?family=Bangers|Lobster|Oswald&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-<div class="container-fluid">
+<div class="container-fluid" id="head">
   <h1>GITHUB<img
       src="https://images.pexels.com/photos/1552617/pexels-photo-1552617.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       height="250px" width="250px">FINDER</h1>
-  <form action="" class="enter">
+  <form action="" class="form">
     <div class="form-group">
       <input type="text" placeholder="enter username here...." class="form-control" [(ngModel)]="username"
         name="username" (keyup)="findProfile()">
 
     </div>
-  </form>
+  </form><br><br>
   <div *ngIf="profile" class="prof">
     <div class="col-sm-8">
       <div class="col-sm-2">
@@ -47,6 +47,8 @@
 
           </p>
           <hr>
+          <br><br>
+          <p id="welcome">Welcome to github serch <br>This site requires you to <br> enter your username<br>to locate your github <br> profile </p>
         </div>
 
       </div>
