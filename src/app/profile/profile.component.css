@@ -11,6 +11,23 @@ h2{
 .btn-outline-info{
     background-color: silver;
 }
+.prof{
+    position: relative;
+    float: left;
+    background-color: rgb(107, 128, 128);
+    width: 36vw;
+    padding-top:2%;
+}
+.butn{
+    display: inline-block;
+}
+
+#repos{
+    float: right;
+    position: relative;
+    top: 0;
+    display: block;
+}
 
 
 h1{

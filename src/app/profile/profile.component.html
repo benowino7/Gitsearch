@@ -13,7 +13,7 @@
 
     </div>
   </form>
-  <div *ngIf="profile">
+  <div *ngIf="profile" class="prof">
     <div class="col-sm-8">
       <div class="col-sm-2">
         <img class="img" src="{{profile.avatar_url}}">
@@ -30,6 +30,7 @@
       <div class="col-sm-6">
         <div>
           <hr>
+          <div class="butn">
           <p>
             <span class="label" class="btn btn-primary"> {{profile.followers}} Followers</span>&nbsp;
 
@@ -39,6 +40,7 @@
 
             <span class="label" class="btn btn-success"> {{profile.public_repos}} Repositories</span>
           </p>
+        </div>
           <hr>
           <hr>
 
@@ -53,7 +55,7 @@
     </div>
   </div>
 </div>
-<div class="container">
+<div class="container" id="repos">
   <h1>Repositories.</h1>
   <hr>
 
