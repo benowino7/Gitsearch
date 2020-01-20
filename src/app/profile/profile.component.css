@@ -78,7 +78,7 @@ input{
     transform-origin: right top;
     box-shadow: 7px 7px 10px grey;
 }
-@keyframes ben {from{transform: rotate(40deg);} to{transform: rotate(-35deg);}}
+@keyframes ben {from{transform: rotate(8deg);} to{transform: rotate(-35deg);}}
 .results{
     color: beige;
 }
