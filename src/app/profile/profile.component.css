@@ -61,12 +61,18 @@ input{
     margin-left: 25%;
 
 }
+.p-center{
+    text-align: center;
+}
 #welcome{
     height: 300px;
-    width: 300px;
+    width: 500px;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    display: block;
     font-family: 'Lobster', cursive;
     font-size: 30px;
-    border: dotted cadetblue 8px;
+    border: dotted black 8px;
     padding: 2%;
     animation: ben 3s 3s alternate ease-in-out infinite ;
     transform-origin: right top;
@@ -76,6 +82,52 @@ input{
 .results{
     color: beige;
 }
+@keyframes anm {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+body>div.prld {
+    margin: 0px 2%;
+    text-align: center;
+    position: relative;
+}
+
+body>div.prld>p {
+    margin: 0px;
+    padding: 0px 0px 0px 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: transparent;
+    min-height: 32vh;
+}
+.prld{
+    margin-left: 10%;
+}
+div.prld>p b {
+    border: 8px dotted black;
+    margin: 6px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    animation: anm 3s ease-in-out infinite alternate;
+    transform-origin: 0px 0px;
+    overflow: hidde;
+}
+/* .bg-1{
+    background-color: #70ff83;
+}
+.bg-2{
+    background-color: #2616b4;
+}
+.bg-3{
+    background-color: #ee3daa;
+} */
 
 /*;
 
