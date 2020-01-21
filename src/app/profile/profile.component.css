@@ -16,7 +16,8 @@ h2{
     float: left;
     width: 36vw;
     padding-top:2%;
-    height: 100vh;
+    height: 70vh;
+    margin-left: 5%;
 }
 .buton{
     display: flex;
@@ -27,6 +28,7 @@ h2{
     position: relative;
     top: 0;
     display: block;
+    width: 350vw;
 }
 
 
